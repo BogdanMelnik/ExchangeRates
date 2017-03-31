@@ -9,7 +9,6 @@
 /* Begin PBXBuildFile section */
 		2C3833E789C7712B37F5E5A9 /* Pods_ExchangeRatesUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 49280F679A0E6D2DE5F1DD4B /* Pods_ExchangeRatesUITests.framework */; };
 		84E34A881E8E67B900D97C17 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E34A871E8E67B900D97C17 /* AppDelegate.swift */; };
-		84E34A8A1E8E67B900D97C17 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E34A891E8E67B900D97C17 /* ViewController.swift */; };
 		84E34A8D1E8E67B900D97C17 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 84E34A8B1E8E67B900D97C17 /* Main.storyboard */; };
 		84E34A901E8E67B900D97C17 /* ExchangeRates.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 84E34A8E1E8E67B900D97C17 /* ExchangeRates.xcdatamodeld */; };
 		84E34A921E8E67B900D97C17 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 84E34A911E8E67B900D97C17 /* Assets.xcassets */; };
@@ -17,7 +16,9 @@
 		84E34AA01E8E67BA00D97C17 /* ExchangeRatesTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E34A9F1E8E67BA00D97C17 /* ExchangeRatesTests.swift */; };
 		84E34AAB1E8E67BA00D97C17 /* ExchangeRatesUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84E34AAA1E8E67BA00D97C17 /* ExchangeRatesUITests.swift */; };
 		84EB3BCC1E8E721E00958CA6 /* Exchangerate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB3BCB1E8E721E00958CA6 /* Exchangerate.swift */; };
-		84EB3BCF1E8E726900958CA6 /* MainViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB3BCE1E8E726900958CA6 /* MainViewController.swift */; };
+		84EB3BCF1E8E726900958CA6 /* MainTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB3BCE1E8E726900958CA6 /* MainTableViewController.swift */; };
+		84EB3BD21E8E809900958CA6 /* MainTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 84EB3BD01E8E809900958CA6 /* MainTableViewCell.swift */; };
+		84EB3BD31E8E809900958CA6 /* MainTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 84EB3BD11E8E809900958CA6 /* MainTableViewCell.xib */; };
 		D754552DE4B83FA7B3AD27AC /* Pods_ExchangeRates.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CE702261C54DC9A5A1465E9D /* Pods_ExchangeRates.framework */; };
 		DE4612B1D3BBF73A284EAE33 /* Pods_ExchangeRatesTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 825D08F3B367555520E23631 /* Pods_ExchangeRatesTests.framework */; };
 /* End PBXBuildFile section */
@@ -46,7 +47,6 @@
 		825D08F3B367555520E23631 /* Pods_ExchangeRatesTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ExchangeRatesTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E34A841E8E67B900D97C17 /* ExchangeRates.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ExchangeRates.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		84E34A871E8E67B900D97C17 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		84E34A891E8E67B900D97C17 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		84E34A8C1E8E67B900D97C17 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		84E34A8F1E8E67B900D97C17 /* ExchangeRates.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ExchangeRates.xcdatamodel; sourceTree = "<group>"; };
 		84E34A911E8E67B900D97C17 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -59,7 +59,9 @@
 		84E34AAA1E8E67BA00D97C17 /* ExchangeRatesUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExchangeRatesUITests.swift; sourceTree = "<group>"; };
 		84E34AAC1E8E67BA00D97C17 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		84EB3BCB1E8E721E00958CA6 /* Exchangerate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Exchangerate.swift; sourceTree = "<group>"; };
-		84EB3BCE1E8E726900958CA6 /* MainViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainViewController.swift; sourceTree = "<group>"; };
+		84EB3BCE1E8E726900958CA6 /* MainTableViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewController.swift; sourceTree = "<group>"; };
+		84EB3BD01E8E809900958CA6 /* MainTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MainTableViewCell.swift; sourceTree = "<group>"; };
+		84EB3BD11E8E809900958CA6 /* MainTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainTableViewCell.xib; sourceTree = "<group>"; };
 		BB37ED3BB8C94EE41746BA04 /* Pods-ExchangeRates.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRates.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRates/Pods-ExchangeRates.debug.xcconfig"; sourceTree = "<group>"; };
 		C2438C73D4BC22C7139C78DE /* Pods-ExchangeRatesUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRatesUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRatesUITests/Pods-ExchangeRatesUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		C25EF2EA85932C1576E080A4 /* Pods-ExchangeRatesTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ExchangeRatesTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ExchangeRatesTests/Pods-ExchangeRatesTests.debug.xcconfig"; sourceTree = "<group>"; };
@@ -144,9 +146,9 @@
 			isa = PBXGroup;
 			children = (
 				84EB3BCD1E8E722700958CA6 /* Model */,
+				84EB3BD41E8E88A300958CA6 /* UI */,
 				84E34A871E8E67B900D97C17 /* AppDelegate.swift */,
-				84E34A891E8E67B900D97C17 /* ViewController.swift */,
-				84EB3BCE1E8E726900958CA6 /* MainViewController.swift */,
+				84EB3BCE1E8E726900958CA6 /* MainTableViewController.swift */,
 				84E34A8B1E8E67B900D97C17 /* Main.storyboard */,
 				84E34A911E8E67B900D97C17 /* Assets.xcassets */,
 				84E34A931E8E67B900D97C17 /* LaunchScreen.storyboard */,
@@ -180,6 +182,15 @@
 				84EB3BCB1E8E721E00958CA6 /* Exchangerate.swift */,
 			);
 			name = Model;
+			sourceTree = "<group>";
+		};
+		84EB3BD41E8E88A300958CA6 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				84EB3BD01E8E809900958CA6 /* MainTableViewCell.swift */,
+				84EB3BD11E8E809900958CA6 /* MainTableViewCell.xib */,
+			);
+			name = UI;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -300,6 +311,7 @@
 			files = (
 				84E34A951E8E67B900D97C17 /* LaunchScreen.storyboard in Resources */,
 				84E34A921E8E67B900D97C17 /* Assets.xcassets in Resources */,
+				84EB3BD31E8E809900958CA6 /* MainTableViewCell.xib in Resources */,
 				84E34A8D1E8E67B900D97C17 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -465,9 +477,9 @@
 			files = (
 				84EB3BCC1E8E721E00958CA6 /* Exchangerate.swift in Sources */,
 				84E34A901E8E67B900D97C17 /* ExchangeRates.xcdatamodeld in Sources */,
-				84E34A8A1E8E67B900D97C17 /* ViewController.swift in Sources */,
 				84E34A881E8E67B900D97C17 /* AppDelegate.swift in Sources */,
-				84EB3BCF1E8E726900958CA6 /* MainViewController.swift in Sources */,
+				84EB3BCF1E8E726900958CA6 /* MainTableViewController.swift in Sources */,
+				84EB3BD21E8E809900958CA6 /* MainTableViewCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
